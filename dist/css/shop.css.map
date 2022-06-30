@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":[],"names":[],"mappings":"","file":"shop.css"}
+{"version":3,"sourceRoot":"","sources":["../../project/scss/shop.scss"],"names":[],"mappings":"AAAA;EACE;;;AAGF;EACE;EACA;EACA;EACA;;;AAGF;EACE;EACA;;;AAGF;EACE;EACA;EACA;EACA;EACA;;;AAGF;EACE;;AACA;EACE;EACA;EACA;;AAEF;EACE;EACA;EACA;EACA;EACA;EACA;EACA;EACA;EACA;EACA;EACA;EACA;EACA;;AAEF;EACE;EACA;EACA;EACA;EAEA;EAEA;;AAEF;EACE;EACA;EACA;EACA;AACA;EACA;EAEA;EACA;EACA","file":"shop.css"}

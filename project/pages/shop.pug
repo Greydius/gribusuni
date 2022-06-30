@@ -1,1 +1,22 @@
-extends ../parts/layout
+extends ../parts/shop-layout
+
+append styles
+  link(
+    rel="stylesheet"
+    href="./css/shop.css"
+  )
+
+block sidebar
+  p Shop Sidebar
+block inner-content
+  h1 Подходящие породы собак (8)
+  hr
+  .products
+    each product, i in [{ name: 'Австралийская овчарка (Аусси)', type: 'пастушья'},{ name: 'Австралийский келпи', type: 'пастушья'},{ name: 'Аляскинский кли-кай', type: 'компаньоны'},{ name: 'Аляскинский маламут', type: 'служебные'},{ name: 'Американский бульдог', type: 'пастушья'},{ name: 'Австралийская овчарка (Аусси)', type: 'пастушья'},{ name: 'Австралийская овчарка (Аусси)', type: 'пастушья'},{ name: 'Австралийская овчарка (Аусси)', type: 'пастушья'},{ name: 'Австралийская овчарка (Аусси)', type: 'пастушья'},{ name: 'Австралийская овчарка (Аусси)', type: 'пастушья'},]
+      .products__product.product
+        .product__helper-block
+        .product__content(
+          style="background-image: url(./img/shop/product-"+ (i+1) +".jpg)"
+        )
+          span.product__title= product.name
+          span.product__type= product.type

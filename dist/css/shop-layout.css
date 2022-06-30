@@ -1,0 +1,16 @@
+.shop-layout {
+  padding-top: 13px;
+}
+.shop-layout__row {
+  width: 100%;
+  align-items: flex-start;
+  gap: 30px;
+}
+.shop-layout__sidebar {
+  width: 255px;
+}
+.shop-layout__content {
+  flex: 1;
+}
+
+/*# sourceMappingURL=shop-layout.css.map */

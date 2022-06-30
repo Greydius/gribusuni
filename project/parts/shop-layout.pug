@@ -1,0 +1,16 @@
+extends layout
+
+append styles
+  link(
+    rel="stylesheet"
+    href="./css/shop-layout.css"
+  )
+
+block content
+  .container.shop-layout
+    .row.shop-layout__row
+      .shop-layout__sidebar
+        block sidebar
+      .shop-layout__content
+        block inner-content
+    
